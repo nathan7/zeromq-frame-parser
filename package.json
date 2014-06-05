@@ -21,6 +21,7 @@
   },
   "keywords": [
     "zeromq",
+    "zmtp",
     "framing",
     "frame",
     "parser"

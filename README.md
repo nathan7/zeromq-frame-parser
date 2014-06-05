@@ -2,7 +2,7 @@
 
 # zeromq-frame-parser
 
-  Parse ZeroMQ frames.
+  Parse ZMTP (ZeroMQ Message Transport Protocol) frames.
 
 ## Installation
 
