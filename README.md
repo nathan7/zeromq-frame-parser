@@ -22,6 +22,7 @@
 
 ## Extras
 
-  The [binary-parse-fn](https://github.com/nathan7/binary-parse-fn) style parser is exposed as `zeromq-frame-parser/parser`.
+  The [binary-parse-fn](https://github.com/nathan7/binary-parse-fn) style parsers are exposed as `zeromq-frame-parser/parser`.
+  They are exposed under the same names as the parse functions.
   This is considered public API.
 
