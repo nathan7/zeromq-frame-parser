@@ -1,0 +1,37 @@
+{
+  "name": "zeromq-frame-parser",
+  "version": "1.0.0",
+  "description": "ZeroMQ frame parser",
+  "main": "index.js",
+  "dependencies": {
+    "binary-parse-fn": "^1.0.0",
+    "binary-types": "^2.1.0"
+  },
+  "devDependencies": {
+    "mocha": "^1.20.1",
+    "regenerator": "^0.4.8"
+  },
+  "scripts": {
+    "test": "mocha -R spec --harmony",
+    "prepublish": "regenerator -r parser.es6.js > parser.es5.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nathan7/zeromq-frame-parser.git"
+  },
+  "keywords": [
+    "zeromq",
+    "framing",
+    "frame",
+    "parser"
+  ],
+  "author": "Nathan Zadoks",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nathan7/zeromq-frame-parser/issues"
+  },
+  "homepage": "https://github.com/nathan7/zeromq-frame-parser",
+  "browser": {
+    "./parser.js": "./parser.es5.js"
+  }
+}
