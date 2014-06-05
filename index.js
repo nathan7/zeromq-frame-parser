@@ -1,2 +1,5 @@
 'use strict';
-module.exports = require('binary-parse-fn')(require('./parser'))
+var parser = require('./parser')
+  , parseFn = require('binary-parse-fn')
+  , parse = module.exports = parseFn(parser)
+parse.frame = parseFn(parser.frame)

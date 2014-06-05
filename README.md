@@ -16,6 +16,10 @@
 
   Parses a single set of frames, and returns an array of their bodies.
 
+### parse.frame(buffer) -> { body: Buffer, more: Boolean }
+
+  Parses a single frame.
+
 ## Extras
 
   The [binary-parse-fn](https://github.com/nathan7/binary-parse-fn) style parser is exposed as `zeromq-frame-parser/parser`.
