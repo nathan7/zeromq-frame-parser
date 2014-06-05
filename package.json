@@ -1,6 +1,6 @@
 {
   "name": "zeromq-frame-parser",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "ZMTP (ZeroMQ Message Transport Protocol) frame parser",
   "main": "index.js",
   "dependencies": {
