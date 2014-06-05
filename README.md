@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/nathan7/zeromq-frame-parser.svg?branch=master)](https://travis-ci.org/nathan7/zeromq-frame-parser?branch=master)
+
 # zeromq-frame-parser
 
   Parse ZeroMQ frames.
